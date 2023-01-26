@@ -1,0 +1,119 @@
+.big-heading {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 5.5rem;
+    line-height: 1.0;
+    font-weight: 25;
+    color: darkgrey;
+    /* text-align: center; */
+}
+
+.small-heading {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 25;
+    color: darkgrey;
+}
+
+.colored-section {
+    background-color:#FFFFFF;
+    /* background-color:#820000; */
+}
+
+
+.container-fluid {
+    /* padding: 7% 20%; */
+    padding: 7% 5%;
+}
+
+.title-image {
+    position: static;
+    width: 100%;
+    /* position: absolute; */
+    right: 100%;
+    top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.attending {
+    font-family: 'Vujahday Script', cursive;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1.0;
+    font-weight: 25;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.respond {
+    border:2px solid blacl;
+    background-color: white;
+    color: black;
+    width: 200px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.respond:hover {opacity: 0.6}
+
+.song-request {
+    font-family: 'Vujahday Script', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.0;
+    font-weight: 25;
+    color: black;
+}
+
+  @media (max-width: 1028px) {
+    .title-image {
+      position: static;
+      width: 100%;
+    }
+  
+    #title {
+      text-align: center;
+    }
+  
+    .big-heading {
+        /* font-family: 'Vujahday Script', cursive; */
+        font-size: 30px;
+        font-weight: bold;
+        /* line-height: 1.0;
+        font-weight: 25;
+        color: silver; */
+        /* text-align: center; */
+    }
+    
+    .small-heading {
+        /* font-family: 'Raleway Dots', cursive; */
+        font-size: 20px;
+        font-weight: bold;
+        /* line-height: 1.5;
+        font-weight: 25;
+        color: silver; */
+    }
+
+    .attending {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container-fluid {
+        padding: 7% 5%;
+    }
+
+    .song-request {
+        font-size: 1.2rem;
+    }
+  }
+  
