@@ -46,6 +46,17 @@
     margin-bottom: 20px;
 }
 
+.attending1 {
+    font-family: 'Vujahday Script', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.0;
+    font-weight: 25;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .respond {
     border:2px solid blacl;
     background-color: white;
